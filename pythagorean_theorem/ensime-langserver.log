@@ -10969,3 +10969,37 @@ Content-Length: 63
 [2019-03-10 16:56:25,324] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":22}}
 [2019-03-10 16:56:25,325] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(22)
 [2019-03-10 16:56:25,325] ERROR org.github.dragos.vscode.EnsimeLanguageServer - Unknown notification CancelRequest(22)
+[2019-03-10 19:06:15,600] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 180
+[2019-03-10 19:06:15,600] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 180
+[2019-03-10 19:06:15,602] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/src/main/scala/main.scala"}}}
+[2019-03-10 19:06:15,602] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/src/main/scala/main.scala"}}}
+[2019-03-10 19:06:15,603] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/src/main/scala/main.scala from Ensime.
+[2019-03-10 19:06:15,603] DEBUG org.github.dragos.vscode.EnsimeLanguageServer - Removing file:///Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/src/main/scala/main.scala from Ensime.
+[2019-03-10 19:12:30,734] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 59
+[2019-03-10 19:12:30,734] DEBUG langserver.core.MessageReader - Received headers:
+Content-Length: 59
+[2019-03-10 19:12:30,735] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":23,"method":"shutdown","params":null}
+[2019-03-10 19:12:30,735] DEBUG langserver.core.Connection - Received {"jsonrpc":"2.0","id":23,"method":"shutdown","params":null}
+[2019-03-10 19:12:30,746] DEBUG langserver.core.MessageWriter - Content-Length: 199
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":23}
+[2019-03-10 19:12:30,746] DEBUG langserver.core.MessageWriter - Content-Length: 199
+
+
+
+{"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":23}
+[2019-03-10 19:12:30,746] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":23}
+[2019-03-10 19:12:30,746] DEBUG langserver.core.MessageWriter - payload: {"jsonrpc":"2.0","error":{"code":-32602,"message":"Invalid params","data":{"meaning":"Invalid method parameter(s).","error":{"obj":[{"msg":["command parameters must be given"],"args":[]}]}}},"id":23}
+[2019-03-10 19:12:31,753] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-03-10 19:12:31,753] INFO langserver.core.MessageReader - End of stream, terminating thread
+[2019-03-10 19:12:31,753] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-03-10 19:12:31,753] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutdown request
+[2019-03-10 19:12:31,754] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-03-10 19:12:31,754] INFO org.github.dragos.vscode.EnsimeLanguageServer - Shutting down actor system.
+[2019-03-10 19:12:31,785] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
+[2019-03-10 19:12:31,785] INFO org.github.dragos.vscode.EnsimeLanguageServer - Actor system down.
