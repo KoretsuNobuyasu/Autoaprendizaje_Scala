@@ -1,0 +1,1 @@
+scalac -bootclasspath /Users/nobu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar -classpath /Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/target/scala-2.12/classes /Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/src/main/scala/main.scala

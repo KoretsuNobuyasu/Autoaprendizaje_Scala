@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/nobu/GitHub/Autoaprendizaje_Scala/pythagorean_theorem/src/main/scala/main.scala:3:68: overloaded method value ^ with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Long)Long <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Int <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Int[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Boolean)[0m
+[0m[[0m[31merror[0m] [0m[0m    for(a <- 1 to 1000; b <- 1 until 1000; c <- 1 until 1000  if a ^ 2 == b ^ 2 + c ^ 2 ){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
