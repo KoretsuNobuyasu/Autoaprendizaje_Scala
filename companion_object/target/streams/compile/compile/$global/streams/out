@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/nobu/GitHub/Autoaprendizaje_Scala/companion_object/src/main/scala/main.scala:6:18: value weight in class Person cannot be accessed in Person[0m
+[0m[[0m[31merror[0m] [0m[0m    println(taro.weight)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
