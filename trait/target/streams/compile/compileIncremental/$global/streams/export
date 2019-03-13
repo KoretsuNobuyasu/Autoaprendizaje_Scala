@@ -1,0 +1,1 @@
+scalac -classpath /Users/nobu/GitHub/Autoaprendizaje_Scala/trait/target/scala-2.12/classes -bootclasspath /Users/nobu/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar /Users/nobu/GitHub/Autoaprendizaje_Scala/trait/src/main/scala/main.scala

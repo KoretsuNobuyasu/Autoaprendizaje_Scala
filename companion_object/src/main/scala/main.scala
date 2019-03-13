@@ -1,6 +1,6 @@
 class Person(name: String, age: Int, private val weight: Int)
 
-object Hoge{
+object Person{
   def printweight(): Unit ={
     val taro = new Person("Taro", 22, 70)
     println(taro.weight)
